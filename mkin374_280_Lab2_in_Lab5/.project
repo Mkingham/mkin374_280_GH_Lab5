@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>mkin374_280_Lab2_in_Lab5</name>
 	<comment></comment>
 	<projects>
@@ -12,6 +13,21 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
+=======
+	<name>RemoteSystemsTempFiles</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.python.pydev.PyDevBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.rse.ui.remoteSystemsTempNature</nature>
+>>>>>>> refs/remotes/origin/master
 		<nature>org.python.pydev.pythonNature</nature>
 	</natures>
 </projectDescription>
