@@ -7,7 +7,7 @@ with open("samplein.txt.", "r") as sys.stdin:
             break
         n = int(dimensions[1]) # n is the number of columns
         m = int(dimensions[0]) # m is the number of rows
-
+        z = n #change made for 280
         costs = [[] for i in range(m)]
         for i in range(0,m):
             costs[i] = sys.stdin.readline().strip().split()
