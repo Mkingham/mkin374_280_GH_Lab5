@@ -38,4 +38,7 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(n):
-    pass
+    if n == 1:
+        return 1
+    else:
+        return n*factorial(n-1)
